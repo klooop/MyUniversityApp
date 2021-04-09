@@ -35,7 +35,6 @@ public  class Controller {
         thirdLevelButton.setOnAction(event ->showNewScene(getClass(),thirdLevelButton,"ThirdLevelTest") );
     }
 
-
     public static void showNewScene(Class cl, Button button, String window){
         Stage forClose = (Stage) button.getScene().getWindow();
         forClose.close();
