@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="613.0" prefWidth="527.0" style="-fx-background-color: #013625;" xmlns="http://javafx.com/javafx/9.0.4" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.Controller">
+    <children>
+        <AnchorPane layoutX="-1.0" layoutY="113.0" prefHeight="499.0" prefWidth="527.0" style="-fx-background-color: #fafafa;" AnchorPane.leftAnchor="-1.0" AnchorPane.rightAnchor="1.0">
+            <children>
+                <Label alignment="CENTER" layoutX="48.0" layoutY="14.0" prefHeight="42.0" prefWidth="399.0" style="-fx-border-color: silver; -fx-border-radius: 10;" text="Выберите уровень сложности" textAlignment="CENTER" textFill="#325c38" AnchorPane.leftAnchor="48.0" AnchorPane.rightAnchor="48.0">
+                    <font>
+                        <Font name="Leelawadee UI Semilight" size="28.0" />
+                    </font>
+                </Label>
+                <Button fx:id="aboutUsButton" layoutX="94.0" layoutY="399.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="454.0" style="-fx-background-color: #013625;" text="О нас" textFill="WHITE" AnchorPane.leftAnchor="88.0" AnchorPane.rightAnchor="88.0">
+                    <font>
+                        <Font size="21.0" />
+                    </font>
+                </Button>
+            <VBox layoutX="48.0" layoutY="94.0" prefHeight="256.0" prefWidth="448.0" AnchorPane.leftAnchor="46.0" AnchorPane.rightAnchor="46.0">
+               <children>
+                  <Button fx:id="firstLevelButton" mnemonicParsing="false" prefHeight="85.0" prefWidth="448.0" style="-fx-background-color: #F39C63; -fx-border-color: #013625; -fx-border-radius: 5;" styleClass="-fx-border-color" text="Базовый уровень" textFill="WHITE">
+                     <font>
+                        <Font size="21.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="secondLevelButton" mnemonicParsing="false" prefHeight="85.0" prefWidth="448.0" style="-fx-background-color: #F39C63; -fx-border-color: #013625; -fx-border-radius: 5;" styleClass="-fx-border-color" text="Углублённый уровень" textFill="WHITE">
+                     <font>
+                        <Font size="21.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="thirdLevelButton" mnemonicParsing="false" prefHeight="85.0" prefWidth="448.0" style="-fx-background-color: #F39C63; -fx-border-color: #013625; -fx-border-radius: 5;" styleClass="-fx-border-color" text="Уровень повышенной сложности" textFill="WHITE">
+                     <font>
+                        <Font size="21.0" />
+                     </font>
+                  </Button>
+               </children>
+            </VBox>
+            </children>
+        </AnchorPane>
+        <Label alignment="CENTER" layoutX="245.0" layoutY="26.0" prefHeight="58.0" prefWidth="262.0" text="Тестирование" textAlignment="CENTER" textFill="#ffffff" AnchorPane.leftAnchor="129.0" AnchorPane.rightAnchor="129.0">
+            <font>
+                <Font name="Leelawadee UI Semilight" size="28.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
